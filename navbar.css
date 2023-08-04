@@ -1,0 +1,15 @@
+.navbar-container>ul{
+    display: flex;
+   
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.navbar-container li a{
+    text-decoration: none;
+
+    
+    
+}
+
