@@ -60,29 +60,40 @@
 
 
 
-
-
 @media only screen and (max-width: 600px){
   .hamburger{
+    position: relative;
+    top: -20px;
+    
     display: block;
-    width: 50px;
-    margin-right: 25px;
+    width: 40px;
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    padding: 0px;
+    height: 5px;
    
   }
-  .hamburger div{
+  #line1,
+  #line2,
+  #line3
+  {
     height: 5px;
-    border-color: black;
-    background-color: black;
     margin: 10px;
+  
+    background-color: black;
+    
+   width:40px;
+   transform-origin: 9.7px;
+   transition: all .5s ;
     
 
-    width: 50px;
+    
   }
 
 
   .navbar-container img{
     width: 80px;
-    margin-left: 20px;
  
     
     
@@ -93,6 +104,9 @@
     flex-direction: column;
     background-color: white;
     display: none;
+    top: -100px;
+    transition: all .5s ;
+    
  
     
 
@@ -124,7 +138,7 @@
   }
   .navbar-container{
    
-    height: 60px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -139,14 +153,26 @@
     
 
 }
-#menu-toggle:checked ~.cross{
-  display: block;
-  }
-  #menu-toggle:checked ~.hamburger{
-    display: none!important;
-    }
-#menu-toggle:checked ~ul{
-display: block;
-}
+
+
+
 
 } 
+
+@media only screen and (min-width: 800px){
+  .navbar-container>ul{
+    display: flex;
+    justify-content: space-between;
+  
+    width: 100%;
+   
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+
+
+
+
+
+}
