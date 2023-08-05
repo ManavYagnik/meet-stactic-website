@@ -60,10 +60,13 @@
 
 
 
+
+
 @media only screen and (max-width: 600px){
   .hamburger{
     display: block;
     width: 50px;
+    margin-right: 25px;
    
   }
   .hamburger div{
@@ -73,12 +76,13 @@
     margin: 10px;
     
 
-    width: 100px;
+    width: 50px;
   }
 
 
   .navbar-container img{
     width: 80px;
+    margin-left: 20px;
  
     
     
@@ -120,7 +124,7 @@
   }
   .navbar-container{
    
-    height: 80px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -135,7 +139,12 @@
     
 
 }
-
+#menu-toggle:checked ~.cross{
+  display: block;
+  }
+  #menu-toggle:checked ~.hamburger{
+    display: none!important;
+    }
 #menu-toggle:checked ~ul{
 display: block;
 }
