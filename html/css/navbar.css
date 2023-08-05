@@ -10,6 +10,10 @@
 }
 
 
+
+
+
+
 .navbar-container>ul{
   display: flex;
   justify-content: space-between;
@@ -23,13 +27,46 @@
 
 .navbar-container li a{
   text-decoration: none;
-  color: white;
+  color: blue;
 
 
   
   
+
+
+}
+
+
+
+.navbar-container li a:hover{
+  color: green;
 }
 
 .navbar-container img{
-  width: 150px;
+  width: 100px;
 }
+
+
+
+
+@media only screen and (max-width: 600px){
+  .navbar-container img{
+    width: 80px;
+  }
+
+  .navbar-container ul{
+    display: none;
+  }
+  .navbar-container{
+    background-color: aqua;
+    height: 80px;
+  }
+  .cb-slideshow {
+    
+    top: 2px;
+    
+    
+
+}
+
+} 
