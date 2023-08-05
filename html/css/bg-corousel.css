@@ -193,6 +193,9 @@
         height: 60vh;
 
     }
+    .corousel-container{
+        top: 20px;
+    }
     
   }
 

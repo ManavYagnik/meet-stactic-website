@@ -76,11 +76,16 @@ footer{
 
 }
 
+.hamburger{
+    display: none;
+    
+}
+
 
 @media only screen and (max-width: 797px){
     .blank-space{
         height: 420px;
       
-        background-color: red;
+       
     }
 }
