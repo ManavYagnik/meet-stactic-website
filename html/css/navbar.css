@@ -43,7 +43,8 @@
 
 
 .navbar-container li a:hover{
-  color: green;
+  color: 
+  #2596be;
 }
 
 .navbar-container img{
@@ -120,7 +121,8 @@
   }
   
   .navbar-container ul li:hover{
-   color: green;
+   color: 
+   #2596be;
   }
   .logo-container{
     display: flex;

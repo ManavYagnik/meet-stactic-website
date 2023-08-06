@@ -10,7 +10,27 @@
     <link rel="stylesheet" href="./css/bg-corousel.css">
     <title>Document</title>
 </head>
+<style>
+    #More {display: none;}
+</style>
+<script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("More");
+  var btnText = document.getElementById("MyBtn");
 
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+    moreText.style.overflow="auto";
+  }
+}
+</script>
 <body>
     <div class="navbar-container">
        
@@ -114,8 +134,37 @@
                     by bringing all kinds of drugs in the reach of global citizen .
                     <br />
                     
-                    We supply the formulation in every possible forms such as tablets, capsules injectable oral suspension ,syrups ,powder etc. for internal consumption and creams, lotions, Ointments, gels for external use.</p>
+                    We supply the formulation in every possible forms such as t
+                    ablets, capsules injectable oral suspension ,syrups 
+                  
+                    ,powder etc. for internal consumption and creams, lotions, Ointments, gels for external use.
+                    <span id="dots"></span>
 
+               <span id="More">     
+
+                RareBee Lifesciences Is PCD Pharma Company based In Ahmedabad,Gujarat.
+                  <br />
+
+                        We have vision of becoming a recognized name in Pharmaceuticals 
+                        field in short span of time. Today RareBee Lifesciences
+                        Is one of he fastest growing Pharmaceuticals company.
+                     <br />    
+                        RareBee Lifesciences is committed for its mission of Healthy Citizen
+                        by bringing all kinds of drugs in the reach of global citizen.
+                        <br />
+                        
+                        We supply the formulation in every possible forms such as tablets, capsules injectable oral suspension ,syrups ,powder etc. for internal 
+                        consumption and creams, lotions, ointments, gels for external use.
+                        <br />
+                        We aim to employ the years of experience we possess to ensure that all our distributors are always ready for any kind of demand. Even though we are already present in all the major cities across the countries, we aim to reach even the most remote villages so that no one has to suffer from the lack of proper medication.
+                    
+                    
+
+                    </p>
+                </span>
+             
+                
+                <button onclick="myFunction()" id="MyBtn">Read more</button>    
                 </div>
 
 
@@ -128,50 +177,22 @@
        
 
 
-        <div class="footer-items-1">
-        <div class="footer-image"> </div>
-        <div class="footer-text">   <img src="./images/36.jpg" alt=""> <p>Address :- A-301,Ganesh Glory 11,Opp.Sg Highway,Jagatpur Rd,Ahmedabad - 382470 (Gujarat)
-
-            </p></div>
-            
-             <br />
-
-            <div class="footer-text">   <img src="./images/corousel1/phone.svg" alt=""> <p>     Mob.:- +91 9898555847<br />
-               <p style="margin-left: 48px;"> +91 9898525796  </p>
-
-            </p></div>
-            <div class="footer-text">   <img src="./images/corousel1/mail.svg" alt=""> <p>rarebeelifesciences@yahoo.com
-
-            </p></div>
-
-
-            
-
-       
-
-        </div>
-        <div class="footer-items">
-           
-            <div class="footer-links">
-                <h1>Heading</h1>
-                <h3>About Us</h3>
-                <h3>Contact Us</h3>
-                <h3>Partner With Us</h3>
-            </div>
+</div>
     
-            </div>
 
-        
-        <div class="footer-items">
-            <div class="footer-links">
-                <h1>Heading</h1>
-                <h3>Products</h3>
-                <h3>Products List</h3>
-                <h3>Products Gallery</h3>
-            </div>
+           
+    
            
           
-    </div>
+    
+    
+
+
+
+
+
+
+
 
     </footer>
     <script src="./js/toggle-menu.js"></script>
