@@ -265,30 +265,7 @@ footer{
         font-weight: bolder;
     }
 
-    ::-webkit-scrollbar {
-        width: 10px;
-        -webkit-overflow-scrolling: touch;
-      }
-      
-      
-      ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        border-radius: 1px;
-      }
-       
-      
-      
-      ::-webkit-scrollbar-thumb {
-       
-        background: #23325B; 
-        border-radius: 1px;
-      }
-      
-      
-      ::-webkit-scrollbar-thumb:hover {
-        background: 
-        #2596be; 
-      }
+ 
       
 
     .footer-items{
