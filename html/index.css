@@ -123,6 +123,30 @@ p{
     margin-bottom: 20px;
 }
 
+.footer-text{
+   
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white !important;
+    width: 400px;
+  
+    height: 200px;
+
+    
+}
+
+.footer-text div{
+    color: white;
+}
+
+.footer-container{
+
+    display: flex;
+    flex-direction: row;
+}
 
 
 footer{
@@ -162,6 +186,11 @@ footer{
    
 
 
+}
+
+.fconfing{
+    color: white;
+    
 }
 
 
@@ -214,7 +243,7 @@ footer{
     }
     .footer-container{
         flex-direction: column;
-        height: 1200px;
+        height: 400px;
 
      
         
