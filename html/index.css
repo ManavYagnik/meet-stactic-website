@@ -105,11 +105,42 @@ footer{
   }
 
 
+.footer-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    background-color: antiquewhite;
+   
+}
+
+
+
+  .footer-items{
+    border: 2px solid;
+    background-color: #1d0fe6;
+    height: 290px;
+    width: 350px;
+  }
+
+
 @media only screen and (max-width: 797px){
     .blank-space{
         height: 420px;
       
        
+    }
+    .footer-container{
+        flex-direction: column;
+        
+
+    }
+
+
+    .footer-items{
+        width: 500px;
     }
 
     .col2-text{
