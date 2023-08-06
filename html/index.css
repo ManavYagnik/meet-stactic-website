@@ -134,6 +134,22 @@ footer{
     width: 750px;
   }
 
+  .footer-items-1{
+    border: 1px solid;
+    
+    height: 400px;
+    width: 750px;
+  }
+
+  .footer-text img{
+    width: 40px;
+
+}
+
+
+
+  
+
 
 @media only screen and (max-width: 797px){
     .blank-space{
@@ -150,6 +166,17 @@ footer{
 
     }
 
+    .footer-text img{
+        width: 20px;
+
+    }
+
+
+    .footer-text p{
+        color: black;
+        font-weight: bolder;
+    }
+
 
     .footer-items{
         width: 100vw;
@@ -160,8 +187,17 @@ footer{
     }
 
 
+    .footer-items-1{
+        width: 100vw;
+        height: 1200px;
+        text-align: start;
+
+        
+    }
+
+
     .footer-container img{
-        width: 100px;
+        /* width: 100px; */
       
        
     
