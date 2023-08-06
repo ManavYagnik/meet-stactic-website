@@ -112,7 +112,7 @@ footer{
     justify-content: space-between;
     width: 100%;
     align-items: start;
-    background-color: #A1CBF1;
+    background-color: #23325B;
    
 }
 
@@ -127,15 +127,21 @@ footer{
 
 
 
+.footer-text p{
+    color: white;
+    
+}
+
+
   .footer-items{
-    border: 1px solid;
+
     
     height: 400px;
     width: 750px;
   }
 
   .footer-items-1{
-    border: 1px solid;
+  
     
     height: 400px;
     width: 750px;
@@ -149,6 +155,7 @@ footer{
 .footer-links{
     display: flex;
     flex-direction: column;
+    color: white;
  
     height: 350px;
     justify-content: space-between;
@@ -182,7 +189,7 @@ footer{
 
 
     .footer-text p{
-        color: black;
+        color:  white;
         font-weight: bolder;
     }
 
