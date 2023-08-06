@@ -109,18 +109,27 @@ footer{
     display: flex;
     height: 500px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #FB5A16;
    
+}
+
+
+.footer-container img{
+    width: 100px;
+    position: relative;
+   
+
+
 }
 
 
 
   .footer-items{
-    border: 2px solid;
-    background-color: #1d0fe6;
+    border: 1px solid;
+    
     height: 290px;
     width: 350px;
   }
@@ -141,6 +150,8 @@ footer{
 
     .footer-items{
         width: 500px;
+        text-align: center;
+        background-color: rgb(2, 162, 53);
     }
 
     .col2-text{
