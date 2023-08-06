@@ -146,6 +146,15 @@ footer{
 
 }
 
+.footer-links{
+    display: flex;
+    flex-direction: column;
+ 
+    height: 350px;
+    justify-content: space-between;
+    
+}
+
 
 
   
