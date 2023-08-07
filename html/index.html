@@ -6,64 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/bg-corousel.css">
     <title>Document</title>
 </head>
 <style>
-    #More {display: none;}
+    #More {
+        display: none;
+    }
 </style>
 <script>
     function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("More");
-  var btnText = document.getElementById("MyBtn");
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("More");
+        var btnText = document.getElementById("MyBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-    moreText.style.overflow="auto";
-  }
-}
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+            moreText.style.overflow = "auto";
+        }
+    }
 </script>
+
 <body>
     <div class="navbar-container">
-       
-            <div class="logo-container">
-                <img src="./images/logo-1.png" alt="">
-               
-                <button class="hamburger" onclick="togogle_menu()">
-                    <div id="line1"></div>
-                    <div id="line2"></div>
-                    <div id="line3"></div>
-                </button>
 
-             
-                
-        
+        <div class="logo-container">
+            <img src="./images/logo-1.png" alt="">
 
-
-    </div>
-</label>
-    <ul id="menuList">
-
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Quality</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Product Gallery</a></li>
-        <li><a href="#"> Partner With Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+            <button class="hamburger" onclick="togogle_menu()">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </button>
 
 
 
 
-    </ul>
+
+
+        </div>
+        </label>
+        <ul id="menuList">
+
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Quality</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Product Gallery</a></li>
+            <li><a href="#"> Partner With Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+
+
+
+        </ul>
 
     </div>
     <div class="corousel-container">
@@ -77,7 +80,7 @@
                             making
                             us the specialist for the Kailash yatra.
                         </p>
-                        
+
                     </div>
                 </li>
                 <li>
@@ -87,7 +90,7 @@
                         <p>We have 28 years of experience leading Sri Lanka Ramayan yatras, Adi Kailash yatras, and
                             special
                             Kailash yatras. Since 1995,</p>
-                        
+
                 </li>
                 <li>
                     <span><img src="./images/corousel1/4.jpg" alt="" class="image-3"></span>
@@ -95,7 +98,7 @@
                         <h1>Ultimate Destination for Pilgrims</h1>
                         <p>Since 1995, Traveldost has been coordinating the Kailash Mansarovar Yatra.
                         </p>
-                    
+
                     </div>
                 </li>
                 <li>
@@ -119,99 +122,136 @@
         <div class="row1">
             <div class="col1">
                 <img src="./images/images.jpg" alt="">
-                
+
             </div>
             <div class="col2">
 
-                <div class="col2-heading"><h1>About US</h1>
+                <div class="col2-heading">
+                    <h1>About US</h1>
                 </div>
 
-              
+
                 <div class="col2-text">
-                    <p>We have vision of becoming a recognized name in Pharmaceuticals field in short span of time. Today RareBee Lifesciences
-                    Is one of he fastest growing Pharmaceuticals company based at ahmedabad,Gujarat.
-                     <br />
-                    RareBee Lifesciences is committed for its mission of Healthy Citizen
-                    by bringing all kinds of drugs in the reach of global citizen .
-                    <br />
-                    
-                    We supply the formulation in every possible forms such as t
-                    ablets, capsules injectable oral suspension ,syrups 
-                  
-                    ,powder etc. for internal consumption and creams, lotions, Ointments, gels for external use.
-                    <span id="dots"></span>
-
-               <span id="More">     
-
-                RareBee Lifesciences Is PCD Pharma Company based In Ahmedabad,Gujarat.
-                  <br />
-
-                        We have vision of becoming a recognized name in Pharmaceuticals 
-                        field in short span of time. Today RareBee Lifesciences
-                        Is one of he fastest growing Pharmaceuticals company.
-                     <br />    
+                    <p>We have vision of becoming a recognized name in Pharmaceuticals field in short span of time.
+                        Today RareBee Lifesciences
+                        Is one of he fastest growing Pharmaceuticals company based at ahmedabad,Gujarat.
+                        <br />
                         RareBee Lifesciences is committed for its mission of Healthy Citizen
-                        by bringing all kinds of drugs in the reach of global citizen.
+                        by bringing all kinds of drugs in the reach of global citizen .
                         <br />
-                        
-                        We supply the formulation in every possible forms such as tablets, capsules injectable oral suspension ,syrups ,powder etc. for internal 
-                        consumption and creams, lotions, ointments, gels for external use.
-                        <br />
-                        We aim to employ the years of experience we possess to ensure that all our distributors are always ready for any kind of demand. Even though we are already present in all the major cities across the countries, we aim to reach even the most remote villages so that no one has to suffer from the lack of proper medication.
-                    
-                    
+
+                        We supply the formulation in every possible forms such as t
+                        ablets, capsules injectable oral suspension ,syrups
+
+                        ,powder etc. for internal consumption and creams, lotions, Ointments, gels for external use.
+                        <span id="dots"></span>
+
+                        <span id="More">
+
+                            RareBee Lifesciences Is PCD Pharma Company based In Ahmedabad,Gujarat.
+                            <br />
+
+                            We have vision of becoming a recognized name in Pharmaceuticals
+                            field in short span of time. Today RareBee Lifesciences
+                            Is one of he fastest growing Pharmaceuticals company.
+                            <br />
+                            RareBee Lifesciences is committed for its mission of Healthy Citizen
+                            by bringing all kinds of drugs in the reach of global citizen.
+                            <br />
+
+                            We supply the formulation in every possible forms such as tablets, capsules injectable oral
+                            suspension ,syrups ,powder etc. for internal
+                            consumption and creams, lotions, ointments, gels for external use.
+                            <br />
+                            We aim to employ the years of experience we possess to ensure that all our distributors are
+                            always ready for any kind of demand. Even though we are already present in all the major
+                            cities across the countries, we aim to reach even the most remote villages so that no one
+                            has to suffer from the lack of proper medication.
+
+
 
                     </p>
-                </span>
-             
-                
-                <button onclick="myFunction()" id="MyBtn">Read more</button>    
+                    </span>
+
+
+                    <button onclick="myFunction()" id="MyBtn">Read more</button>
                 </div>
 
 
             </div>
         </div>
 
-        <div class="row2">
-              <div class="col2">
-                         <img src="./images/corousel1/network.png" width="100px" height="100px" alt="">
-                         <img src="./images/corousel1/Experience.png" width="100px" height="100px" alt="">
-               </div>
-               <div class="col2">
-                   
-                         <img src="./images/corousel1/Services.png"  width="100px" height="100px" alt="">
-                         <img src="./images/corousel1/portfolio.png"  width="100px" height="100px" alt="">
-                        </div>
-        </div>
+
+     
+
+
+
+     
+                      
 
     </div>
-    <footer>
-     <div class="footer-container">
-        <div class="footer-text"> 
-           <div> <i class="fa fa-map-marker fconfing" style="font-size: 48px;" aria-hidden="true"></i></div>
-           <div>  Office :-</div>
 
-           <div>A-301,Ganesh Glory 11,Jagatpur Road,Opp.SG Highway,Ahmedabad - 382470 (Guj.) INDIA</div>
-           <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i>  +91 9898555847</div>
-           <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i>  +91 9898525796</div>
-            </div>
-        <div class="footer-text">rhiqhriq
-            <i class="fa fa-map-marker fconfing" aria-hidden="true">9</i>
-            
-        </div>
+
+    <div class="section-1">
+
+        <div class="row2"><div class="col3">   <img src="./images/corousel1/network.png" width="100px" height="100px" alt=""></div><div class="col3"><img src="./images/corousel1/Experience.png" width="100px" height="100px" alt=""></div></div>
+         
+
+    </div>
+
+
+    <div class="section-1">
+
+        <div class="row2"><div class="col3"> <img src="./images/corousel1/support.svg"  width="100px" height="100px" alt=""></div><div class="col3"> <img src="./images/corousel1/download.png" alt="" width="100px" height="100px"></div></div>
+        <!-- <div class="row2"><div class="col3"><div class="col3"></div></div></div> -->
+
+
         
        
 
 
-</div>
+     
+
+
+
+       
+                      
+
+    </div>
+
+
     
 
-           
-    
-           
-          
-    
-    
+
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <div> <i class="fa fa-map-marker fconfing" style="font-size: 48px;" aria-hidden="true"></i></div>
+                <div> Office :-</div>
+
+                <div>A-301,Ganesh Glory 11,Jagatpur Road,Opp.SG Highway,Ahmedabad - 382470 (Guj.) INDIA</div>
+                <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i> +91 9898555847</div>
+                <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i> +91 9898525796</div>
+            </div>
+            <div class="footer-text">rhiqhriq
+                <i class="fa fa-map-marker fconfing" aria-hidden="true">9</i>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
 
 
 
