@@ -282,7 +282,10 @@ footer{
     flex-direction: row;
 }
 
-
+.section-1{
+    height: auto;
+    width: 100%;
+}
   
 
 
