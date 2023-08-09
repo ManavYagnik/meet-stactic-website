@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/bg-corousel.css">
+    <title>Document</title>
+</head>
+<style>
+    #More {
+        display: none;
+    }
+</style>
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("More");
+        var btnText = document.getElementById("MyBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+            moreText.style.overflow = "auto";
+        }
+    }
+</script>
+
+<body>
+    <div class="navbar-container">
+
+        <div class="logo-container">
+            <img src="./images/logo-1.png" alt="">
+
+            <button class="hamburger" onclick="togogle_menu()">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </button>
+
+
+
+
+
+
+        </div>
+        </label>
+        <ul id="menuList">
+
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Quality</a></li>
+            <li><a href="./product.html">Products</a></li>
+            <li><a href="#">Product Gallery</a></li>
+            <li><a href="#"> Partner With Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+
+
+
+        </ul>
+
+    </div>
+    <div class="corousel-container">
+        <div class="cb-main-container">
+            <ul class="cb-slideshow">
+                <li>
+                    <span><img src="./images/corousel1/1.jpg" class="image-1" alt=""></span>
+                    <div>
+                        <h1>Kailash Mansarovar Yatra 2023</h1>
+                        <p>We are dedicated to Kailash yatra tours and operate only these tours through out the year
+                            making
+                            us the specialist for the Kailash yatra.
+                        </p>
+
+                    </div>
+                </li>
+                <li>
+                    <span><img src="./images/corousel1/2.jpg" alt="" class="image-2"></span>
+                    <div>
+                        <h1>Specialist in Kailash Mansarovar Yatra</h1>
+                        <p>We have 28 years of experience leading Sri Lanka Ramayan yatras, Adi Kailash yatras, and
+                            special
+                            Kailash yatras. Since 1995,</p>
+
+                </li>
+                <li>
+                    <span><img src="./images/corousel1/4.jpg" alt="" class="image-3"></span>
+                    <div>
+                        <h1>Ultimate Destination for Pilgrims</h1>
+                        <p>Since 1995, Traveldost has been coordinating the Kailash Mansarovar Yatra.
+                        </p>
+
+                    </div>
+                </li>
+                <li>
+                    <span><img src="./images/corousel1/4.jpg" alt="" class="image-4"></span>
+                    <div>
+                        <h1>Adi Kailash & Om Parvat yatra</h1>
+                        <p>Adi Kailash yatra by road. Trek only of 4-5 kms near Adi Kailash. </p>
+                        <button class="more">Learn More</button>
+
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="blank-space"></div>
+
+    <div class="section-1">
+        <div class="row1">
+            <div class="col1">
+
+
+            </div>
+            <div class="col2">
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <div> <i class="fa fa-map-marker fconfing" style="font-size: 48px;" aria-hidden="true"></i></div>
+                <div> Office :-</div>
+
+                <div>A-301,Ganesh Glory 11,Jagatpur Road,Opp.SG Highway,Ahmedabad - 382470 (Guj.) INDIA</div>
+                <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i> +91 9898555847</div>
+                <div> <i class="fa fa-phone fconfing" style="font-size:18px;color:white"></i> +91 9898525796</div>
+            </div>
+            <div class="footer-text">rhiqhriq
+                <i class="fa fa-map-marker fconfing" aria-hidden="true">9</i>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+    <script src="./js/toggle-menu.js"></script>
+
+</body>
+
+</html>
