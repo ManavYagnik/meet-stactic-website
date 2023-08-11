@@ -8,7 +8,10 @@
     
 
 }
-
+#Contact{
+    background-color: #23325B;
+    height: 500px;
+}
 .quality{
     line-height: 30px;
 }
