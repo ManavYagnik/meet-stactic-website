@@ -487,5 +487,9 @@ footer{
         text-align: center;
     }
 
+    .contact-container{
+        width: 100%;
+       
+    }
    
 }
