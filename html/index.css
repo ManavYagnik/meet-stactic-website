@@ -9,7 +9,9 @@
 
 }
 
-
+.quality{
+    line-height: 30px;
+}
 
 table {
     font-family: arial, sans-serif;
