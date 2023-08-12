@@ -469,6 +469,7 @@ footer{
     padding: 2px 16px;
     color: #23325B;
   }
+  
   img {
     vertical-align: middle;
   }
@@ -496,7 +497,12 @@ footer{
   }
 
 
-
+ @media only screen and (min-width: 797px){
+    .mySlides img{
+        width: 50% !important;
+        
+    }
+ }
 
 
 
