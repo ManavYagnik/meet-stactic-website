@@ -74,6 +74,9 @@ input[type=text], select, textarea {
   .help{
     margin: 20px 0px 20px 0; 
   }
+  .help2{
+    height: 100px;
+  }
 #Contact{
 
     height: 800px;
