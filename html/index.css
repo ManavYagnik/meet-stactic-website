@@ -465,9 +465,12 @@ footer{
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #23325B;
+    background-color: white;
     padding: 2px 16px;
-    color: white !important;
+    color: #23325B;
+  }
+  img {
+    vertical-align: middle;
   }
   
   .row4:after {
