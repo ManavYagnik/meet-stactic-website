@@ -56,13 +56,23 @@ input[type=text], select, textarea {
   }
   
 
+
   label{
     font-weight: bolder;
   }
   .container {
     border-radius: 5px;
-    background-color: blueviolet;
+    background-color: #cce5f9;
     padding: 20px;
+  }
+  .reach{
+   
+  background-color: #cce5f9;
+ 
+   
+  }
+  .help{
+    margin: 20px 0px 20px 0; 
   }
 #Contact{
 
