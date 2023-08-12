@@ -182,7 +182,7 @@ table {
     height: 300px;
     margin-top: 20px;
    
-    font-family: sans-serif, "Lato";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
@@ -215,11 +215,12 @@ table {
 #MyBtn{
     background-color: #23325B;
     font-size: 16px;
+    height: 40px;
     color: aliceblue;
     padding: 4px;
-    border-radius: 14px 14px 14px 14px;
+    
     border: none;
-    margin-top: 2px;
+    margin-top: 12px;
 }
 
 
@@ -497,7 +498,7 @@ footer{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     p{
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .row1{
