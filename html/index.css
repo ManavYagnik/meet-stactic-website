@@ -589,6 +589,10 @@ footer{
 
   .cr1-text{
     text-align: center;
+    font-size: smaller;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
 
