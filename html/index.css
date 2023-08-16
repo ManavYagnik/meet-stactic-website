@@ -566,6 +566,10 @@ footer{
 
 @media only screen and (max-width: 797px){
 
+  .prev ,.next{
+    margin-top: -200px;
+
+  }
   .cr1{
     height: 275px;
     width: 100%;
