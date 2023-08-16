@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./product.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./partnerwithus.css">
+        <link rel="stylesheet" href="./css/bg-corousel.css">
+        <title>Document</title>
+      </head>
+      <style>
+        #More {
+          display: none;
+        }
+      </style>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+      
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+      
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+      
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("More");
+          var btnText = document.getElementById("MyBtn");
+      
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+            moreText.style.overflow = "auto";
+          }
+        }
+      </script>
+<body>
+    <div class="navbar-container">
+
+        <div class="logo-container">
+          <img src="./images/logo-1.png" alt="">
+    
+          <button class="hamburger" onclick="togogle_menu()">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+          </button>
+    
+    
+    
+    
+    
+    
+        </div>
+        </label>
+        <ul id="menuList">
+    
+          <li><a href="./index.html">About Us</a></li>
+          <li><a href="#">Quality</a></li>
+          <li><a href="./product.html">Products</a></li>
+          <li><a href="./productgallery.html">Product Gallery</a></li>
+          <li><a href="./partnerwithus.html"> Partner With Us</a></li>
+          <li><a href="./contactus.html">Contact Us</a></li>
+    
+    
+    
+    
+        </ul>
+    
+      </div>
+      <div class="partner-with-us-container"><h1>Partner With Us</h1>
+    <img src="./images/partnerwithus.jpg" width="400px" height="400px"></div>
+    <div class="partner-with-text">
+      <p>RareBee Lifesciences, focus on providing high quality products at affordable price to our customers with dedicated customer service. 
+        <br />
+       
+
+      
+      We operate on monopoly rights business strategy which gives our business associates a competitive advantage for their growth. We will be providing promotional material to help our business associates for better reach in the market. We empower our business associates with all the resources that required to market our products, maximize sales and capitalize on upcoming opportunities. We have also an incentive scheme that gives our business associate to earn points and redeem at the end of the year which includes exclusive range of gifts and a foreign trip.
+      <br />
+    
+  
+      By pooling the talents of our science and business teams, we have engaged in numerous collaborations with a range of companies and research institutions. We look to build upon our existing strengths as well as to create new areas of expertise.</p></div>
+</body>
+</html>

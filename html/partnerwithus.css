@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.partner-with-us-container{
+    margin-top: 100px;
+    width:auto;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.partner-with-text{
+
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+
+}
+.partner-with-text p{
+
+    font-size: medium;
+    line-height: 30px;
+ 
+    text-align: center;
+  
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
