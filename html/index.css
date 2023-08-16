@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: myFirstFont;
-  src: url(alegreya-sans.bold.ttf);
+  src: url(nunito.regular.ttf);
 }
 
 .submit-btn{
@@ -513,7 +513,9 @@ footer{
     display: table;
     clear: both;
   }
-  
+  .img-container-1 img{
+    width: 400px;
+  }
   /* Six columns side by side */
   .column4 {
     float: left;
