@@ -250,6 +250,7 @@ p{
     margin-bottom: 20px;
 }
 
+
 .footer-text{
    
    
@@ -550,6 +551,55 @@ footer{
   background-color: #f2f2f2;
   height: 800px;
  }
+
+
+ .partner-heading{
+  text-align: center;
+  display: flex;
+
+  
+  justify-content: center;
+  
+ 
+}
+
+ .partner-with-us-container{
+  margin-top: 20px;
+  width:100%;
+
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+
+.partner-with-us-container .img-container-1{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;}
+
+        
+.partner-with-text{
+  width: 50%;
+  line-height: 32px;
+
+
+ 
+ 
+
+
+
+}
+.partner-with-text p{
+
+
+}
+
+
+
  @media only screen and (min-width: 797px){
     .mySlides img{
         width: 50% !important;
@@ -565,6 +615,34 @@ footer{
 
 
 @media only screen and (max-width: 797px){
+   .partner-with-us-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+  } 
+  .img-container-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+  }
+  .img-container-1 img{
+    width: 320px;
+  }
+
+
+  .partner-with-text{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 
   .prev ,.next{
     margin-top: -200px;
