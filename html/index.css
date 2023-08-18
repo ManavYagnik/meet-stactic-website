@@ -644,6 +644,11 @@ footer{
 
 
 }
+
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
 .partner-with-text p{
 
 
@@ -695,7 +700,8 @@ footer{
   .partner-with-text{
     width: 100%;
     display: flex;
-    font-size: small;
+    font-size: 13.33px;
+
     flex-direction: row;
     align-items: center;
     text-align: center;
