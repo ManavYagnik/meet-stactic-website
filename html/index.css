@@ -695,7 +695,7 @@ footer{
   .partner-with-text{
     width: 100%;
     display: flex;
-
+    font-size: small;
     flex-direction: row;
     align-items: center;
     text-align: center;
