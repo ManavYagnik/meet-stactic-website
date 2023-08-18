@@ -95,7 +95,7 @@ input[type=text], select, textarea {
     line-height: 30px;
 }
 #Quality{
-  height: 1000px;
+  height: 500px;
 }
 table {
     font-family: arial, sans-serif;
@@ -157,6 +157,13 @@ table {
    
 
 }
+.row6{
+  display: flex;
+  width: 100%;
+  height: 300px;
+ 
+
+}
 
 
 
@@ -177,27 +184,52 @@ table {
 .col1 img{
     width: 80%;
 }
+.col6 img{
+  width: 80%;
+}
+
+
+
 .col1{
     
     display: flex;
-    height: 500px;
-    flex-direction: column;
-    align-items: center;
     width: 100%;
- 
+    height: 300px;
     justify-content: center;
+
+}
+.col6{
+    
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
 
 }
 .col2{
     display: flex;
     width: 100%;
     flex-direction: column;
-    height: 600px;
+    height: 300px;
   
     margin-top: 20px;
    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
+}
+
+.col7{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 900px;
+
+  margin-top: 20px;
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 
@@ -246,6 +278,14 @@ table {
     overflow-y: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.col7-text{
+  text-align: center;
+  margin: 4px;
+  font-size: medium;
+  color: #060606;
+  overflow-y: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 p{
     line-height: 25px;
@@ -253,6 +293,10 @@ p{
 .col2-heading{
     text-align: center;
     margin-bottom: 20px;
+}
+.col7-heading{
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 
@@ -727,7 +771,10 @@ footer{
     
 
     .col2{
-      height: 950px;
+      height: 350px;
+    }
+    .col7{
+      height: 900px;
     }
 .section-1{
 
@@ -787,11 +834,18 @@ footer{
     .col2-text{
         text-align: center;
         margin: 4px;
-        height: 500px;
         font-size: smaller;
         color: #060606;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    .col7-text{
+      text-align: center;
+      margin: 4px;
+      font-size: smaller;
+      height: 900px;
+      color: #060606;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
     p{
         line-height: 25px;
     }
@@ -799,11 +853,18 @@ footer{
     .row1{
         flex-direction: column;
     }
+    .row6{
+      flex-direction: column;
+  }
 
     .col1{
         display: block;
         text-align: center;
     }
+    .col6{
+      display: block;
+      text-align: center;
+  }
 
     .contact-container{
         width: 100%;
