@@ -719,7 +719,7 @@ a[href^=tel] {
   align-items: center;
 
 
-  background-color: #2596be;
+  background-color: #a1cbf1;
 }
 .map-container2 >iframe{
   border-radius:  0px 20px 20px 0px;
@@ -733,6 +733,11 @@ a[href^=tel] {
 
  
 
+}
+.footer-text a{
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .real-heading{
