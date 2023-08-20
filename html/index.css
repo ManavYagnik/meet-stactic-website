@@ -16,6 +16,7 @@
 
 .submit-btn{
     background-color: #23325B;
+    font-size: larger;
 }
 
 
@@ -26,6 +27,29 @@
  
     
     
+}
+
+
+.sl1-heading h2{
+  color: white;
+  text-align: center;
+}
+.sl1-heading p{
+  color: white;
+  text-align: center;
+
+}
+.sl1-heading{
+  text-align: center;
+}
+
+.sli{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #362C87;
 }
 .contact-container{
     width: 50%;
@@ -40,6 +64,8 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-weight: bolder;
+    font-size: larger;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -67,8 +93,16 @@ input[type=text], select, textarea {
   }
   .container {
     border-radius: 5px;
-    background-color: #cce5f9;
+    background-color: #a1cbf1;
     padding: 20px;
+  }
+
+  .form-container{
+    font-weight: bolder;
+  }
+  .form-container h1{
+    text-align: center;
+
   }
   .reach{
    
@@ -645,6 +679,14 @@ footer{
 
 }
 
+.sl1-heading a{
+  border: 2px solid orangered;
+  padding: 15px;
+  color: orangered;
+  border-radius: 14px 14px 14px 14px;
+ 
+}
+
 a[href^=tel] {
   color: inherit;
   text-decoration: none;
@@ -653,8 +695,55 @@ a[href^=tel] {
 
 
 }
+.sl1-heading .t{
+  color: #2596be;
+  text-align: center;
+  font-size: 16px;
+
+}
+#Contact2{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.form-container2{
+  height: 401px;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: space-between;
+  align-items: center;
 
 
+  background-color: #2596be;
+}
+.map-container2 >iframe{
+  border-radius:  0px 20px 20px 0px;
+  margin-top: 2px;
+}
+.form1{
+  background-color: whitesmoke;
+  height: 404px;
+  width: 400px;
+  border-radius:  20px 0px 0px 20px;
+}
+
+
+@media only screen and (min-width: 797px){
+  .form-container{
+    display: none;
+  }
+  #Contact{
+    display: none;
+  }
+  .container{
+    display: none;
+  }
+}
 
  @media only screen and (min-width: 797px){
     .mySlides img{
@@ -671,6 +760,10 @@ a[href^=tel] {
 
 
 @media only screen and (max-width: 797px){
+
+  .sli{
+    height: 500px;
+  }
    .partner-with-us-container{
     display: flex;
     flex-direction: column;
@@ -696,7 +789,13 @@ a[href^=tel] {
   .quality{
     height: 110px;
   }
-
+  .sl1-heading .t{
+    color: #2CAEDB;
+    text-align: center;
+    font-size: 14px;
+  
+  }
+  
   .partner-with-text{
     width: 100%;
     display: flex;
@@ -741,6 +840,9 @@ a[href^=tel] {
     margin-right: 20px;
   }
   
+  #Contact2{
+    display: none;
+  }
 
 
 
