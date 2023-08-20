@@ -725,8 +725,27 @@ a[href^=tel] {
   border-radius:  0px 20px 20px 0px;
   margin-top: 2px;
 }
+
 .form1{
-  background-color: whitesmoke;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+
+ 
+
+}
+.form-container-3{
+  margin-left: 20px;
+}
+
+/* .form-container-3{
+
+
+  flex-direction: column;
+  justify-content: center;
+} */
+.form1{
+
   height: 404px;
   width: 400px;
   border-radius:  20px 0px 0px 20px;
