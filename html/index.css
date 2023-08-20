@@ -734,6 +734,12 @@ a[href^=tel] {
  
 
 }
+
+.real-heading{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
 .form-container-3{
   margin-left: 20px;
 }
