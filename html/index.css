@@ -785,10 +785,13 @@ body{
     }
     .cr1-heading{
       width: 70%;
+      text-align: center;
     }
 
     .cr1-image{
       width: 30%;
+  
+      text-align: center;
     }
 
 
