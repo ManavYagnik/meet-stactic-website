@@ -201,6 +201,7 @@ table {
 
 
 
+
 .box1{
   width: 400px;
   border: 2px solid;
@@ -382,7 +383,7 @@ footer{
 
 .footer-container {
     display: flex;
-    height: 400px;
+    height: 320px;
     width: 100vb;
     flex-direction: row;
     justify-content: space-between;
@@ -691,15 +692,15 @@ a[href^=tel] {
   color: inherit;
   text-decoration: none;
 }
-.partner-with-text p{
 
-
-}
 .sl1-heading .t{
   color: #2596be;
   text-align: center;
   font-size: 16px;
 
+}
+body{
+  scroll-behavior: smooth;
 }
 #Contact2{
   height: 500px;
@@ -738,10 +739,11 @@ a[href^=tel] {
   color: white;
   font-weight: bolder;
   font-size: larger;
+  text-decoration: none;
 }
 
 .real-heading{
-  font-size: 16px;
+  font-size: 36px;
   font-weight: bolder;
 }
 
@@ -781,6 +783,15 @@ a[href^=tel] {
         margin-left: 20%;
         
     }
+    .cr1-heading{
+      width: 70%;
+    }
+
+    .cr1-image{
+      width: 30%;
+    }
+
+
   
  }
 

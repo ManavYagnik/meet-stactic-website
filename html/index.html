@@ -15,8 +15,36 @@
   #More {
     display: none;
   }
+  html {
+  scroll-behavior: smooth;
+}
 </style>
 <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const scrollLink = document.getElementById("scrollLink");
+  const scrollTarget = document.getElementById("touch");
+
+  scrollLink.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent default link behavior
+
+    // Calculate the target scroll position (adjust the value as needed)
+    const targetPosition = scrollTarget.offsetTop;
+
+    // Perform smooth scrolling animation
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth"
+    });
+  });
+});
+
+
+
+
+
+
+
+
   let slideIndex = 1;
   showSlides(slideIndex);
 
@@ -87,11 +115,11 @@
     <ul id="menuList">
 
       <li><a href="./index.html">About Us</a></li>
-      <li><a href="#">Quality</a></li>
-      <li><a href="./product.html">Products</a></li>
+      <li><a href="#Quality">Quality</a></li>
+      <li><a href="#p">Products</a></li>
       <li><a href="./productgallery.html">Product Gallery</a></li>
-      <li><a href="./partnerwithus.html"> Partner With Us</a></li>
-      <li><a href="./contactus.html">Contact Us</a></li>
+      <li><a href="#c"> Partner With Us</a></li>
+      <li><a href="./contactus.html" id="touchme">Contact Us</a></li>
 
 
 
@@ -99,7 +127,7 @@
     </ul>
 
   </div>
-  <div class="corousel-container">
+  <div class="corousel-container" id="co">
     <div class="cb-main-container">
       <ul class="cb-slideshow">
         <li>
@@ -150,7 +178,7 @@
         <img src="./images/images.jpg" alt="">
 
       </div>
-      <div class="col2">
+      <div class="col2" id="about">
 
         <div class="col2-heading">
           <h1>About Us</h1>
@@ -313,8 +341,8 @@ All of our pharma products undergo a multi-step quality Assurance testing proced
 
     </div>
 
- <div class="sli">
-   <div class="sl1-heading"><h2> See Our Products</h2></div>
+ <div class="sli" id="p">
+   <div class="sl1-heading" id=""><h2> See Our Products</h2></div>
    <div class="sl1-heading"><p class="t"> Take some time to learn about our company, what sets us apart from other companies and why we're one of your best options for success in Ahmedabad!</p></div>
    <div class="sl1-heading"><p > We're a pharma company in Gujarat that uses innovative technologies and modernised machines for product manufacturing. With years of experience, today we provide you with a broad category drugs - all from one source!</p></div>
    <div class="sl1-heading"><a > See All Product</a></div>
@@ -390,7 +418,7 @@ All of our pharma products undergo a multi-step quality Assurance testing proced
 
 
   
-    <div class="partner-heading">
+    <div class="partner-heading" id="c">
       <div class="real-heading">Partner With Us</div>
     </div>
     <div class="partner-with-us-container">
@@ -428,8 +456,8 @@ All of our pharma products undergo a multi-step quality Assurance testing proced
 
         
 
-        <div class="container">
-          <form class="form-container">
+        <div class="container " id="touch">
+          <form class="form-container" >
             <h1> Touch With Us</h1>
          
             <input type="text" id="fname" name="firstname" placeholder="Your Name">
@@ -498,11 +526,11 @@ All of our pharma products undergo a multi-step quality Assurance testing proced
           </div>
         </div>
         <div class="footer-text"><a>Useful Links</a>
-          <a>About Us</a>
-          <a>About Us</a>
-          <a>About Us</a>
-          <a>About Us</a>
-          <a>About Us</a>
+          <p> <a href="#about">About Us</a></p>
+          <p> <a href="#Quality">Quality</a></p>
+          <p> <a href="#p">Products</a></p>
+          <p> <a href="#">Products Gallery</a></p>
+          <a href="#c">   Partner With Us</a>
 
         </div>
 
