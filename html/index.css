@@ -71,6 +71,41 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  /* input[type=number] {
+    -moz-appearance: textfield;
+  } */
+  ::placeholder {
+    color: #23325B;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #23325B
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #23325B;
+  }
+
+  input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: larger;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
   
   input[type=submit] {
     background-color: #23325B;
@@ -903,7 +938,7 @@ body{
     }
     .footer-container{
         flex-direction: column;
-        height: 600px;
+        height: 800px;
         overflow-x: hidden;
 
      
@@ -944,7 +979,7 @@ body{
 
 
     .footer-text img{
-        width: 20px;
+        width: 420px;
 
     }
 
