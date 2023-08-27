@@ -1,4 +1,39 @@
+.help3{
+    height: 10px;
+}
+.product_table_image{
+    background-image: url(./images/products.jpg);
+    height: 400px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
+
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.product_links{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.product_links a{
+    text-decoration: none;
+    font-size: 30px;
+    
+    font-weight: lighter;
+}
+
+
+
+
+@media screen  {
+    
+}
 
 
 

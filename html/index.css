@@ -52,6 +52,9 @@
 .sl1-heading{
   text-align: center;
 }
+.sl1-heading a{
+  text-decoration: none;
+}
 
 .sli{
   height: 300px;
