@@ -14,6 +14,16 @@
   src: url(nunito.regular.ttf);
 }
 
+@font-face {
+  font-family: mySecondFont;
+  src: url(alegreya-sans.bold.ttf);
+}
+
+#menuList li a{
+  font-family: mySecondFont!important;
+}
+
+
 .submit-btn{
     background-color: #23325B;
     font-size: larger;
@@ -380,6 +390,7 @@ p{
     color: white !important;
     width: 400px;
    
+   
   
     height: 350px;
 
@@ -414,6 +425,66 @@ footer{
 .cross{
     display: none;
   }
+.copyrigth{
+  background-color: #23325B;
+  width: 100%;
+  height: 20px;
+}
+.cardrow{
+  height: 400px;
+  background-color: #f1f1f1;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.monopoly-heading{
+  width: 70%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.monopoly-text{
+  width: 100%;
+}
+.card{
+  height: 250px;
+  width: 290px;
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-direction: column;
+
+
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+
+
+
+}
+
+
+
+.monopoly{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+ 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  background-color: #E2E5E7;
+}
+.monpoly-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
 
 
 .footer-container {
@@ -535,6 +606,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-color: #a1cbf1;
 }
 
 .section-1{
@@ -549,7 +621,7 @@ footer{
 }
 
 .footer-text div span{
-    font-size: 14px!important;
+    font-size: 18px!important;
     align-items: center;
     display: flex;
     padding-left: 12px;
@@ -802,8 +874,16 @@ body{
 .footer-text p a{
  font-weight: 100;
  font-size: medium;
+ font-family: mySecondFont !important;
 }
 
+.footer-text a{
+  font-family: mySecondFont !important;
+}
+
+.footer-text div span{
+  font-family: mySecondFont !important;
+}
 
 @media only screen and (min-width: 797px){
   .form-container{
@@ -844,6 +924,15 @@ body{
 
 
 @media only screen and (max-width: 797px){
+  .cardrow{
+    height: 900px;
+    background-color: #f1f1f1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
   .sli{
     height: 500px;
@@ -956,6 +1045,7 @@ body{
         height: 1200px;
         align-items: right;
         width: 100%;
+        background-color: #a1cbf1;
        
      
         justify-content: start;
