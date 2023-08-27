@@ -155,13 +155,13 @@ input[type=text], select, textarea {
  
    
   }
-  .help{
-    margin: 20px 0px 20px 0; 
+  /* .help{
+    margin: 2px 0px 20px 0; 
 
   }
   .help2{
     height: 100px;
-  }
+  } */
 #Contact{
 
     height: 800px;
@@ -431,8 +431,8 @@ footer{
   height: 20px;
 }
 .cardrow{
-  height: 400px;
-  background-color: #f1f1f1;
+  height: 430px;
+  background-color: #f2f2f2;
  
   display: flex;
   flex-direction: row;
@@ -749,6 +749,7 @@ footer{
  .partner-heading{
   text-align: center;
   display: flex;
+  background-color: #f2f2f2;
 
   
   justify-content: center;
@@ -757,13 +758,14 @@ footer{
 }
 
  .partner-with-us-container{
-  margin-top: 20px;
+
   width:100%;
 
   height: auto;
 
   display: flex;
   flex-direction: row;
+  background-color: #f2f2f2;
   justify-content: space-evenly;
  
 }
@@ -772,6 +774,7 @@ footer{
   display: flex;
   flex-direction: column;
   height: 400px;
+  background-color: #f2f2f2;
   justify-content: center;}
 
         
