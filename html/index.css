@@ -511,6 +511,8 @@ footer{
 
 .fconfing{
     color: white;
+ 
+    height: 40px;
     
 }
 
@@ -622,9 +624,10 @@ footer{
 
 }
 
-.footer-text div span{
+.footer-text div p{
     font-size: 18px!important;
-    align-items: center;
+    font-family: mySecondFont;
+  
     display: flex;
     padding-left: 12px;
     color: white;
@@ -820,7 +823,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 50px;
   
 }
 .form-container2{
