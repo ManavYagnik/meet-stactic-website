@@ -200,10 +200,11 @@ table {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
+    font-weight: bolder;
   }
   
   tr:nth-child(even) {
-    background-color: lightblue;
+    background-color:  #9ABDCB;
   }
 .corousel-container{
     position: absolute;
