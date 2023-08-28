@@ -54,7 +54,11 @@
 
     }
     .product_links {
-        font-size: 18px!important;
+        font-size: 14px!important;
+    }
+    .product_table_heading{
+        font-size: 20px!important;
+        text-align: center;
     }
 }
 
