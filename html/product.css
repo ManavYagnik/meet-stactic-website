@@ -27,6 +27,17 @@
     
     font-weight: lighter;
 }
+.blank{
+    height: 200px;
+}
+
+.table-container >h2{
+    border: 1px solid;
+
+
+
+
+}
 
 
 
@@ -34,6 +45,9 @@
 @media only screen and (max-width: 797px){
     .product_table_image div , .product_table_image a{
         font-size: x-large;
+    }
+    .blank{
+        height: 100px;
     }
 
     .product_table_image{
@@ -48,7 +62,7 @@
  
     .product_links a{
         text-decoration: none;
-        font-size: 18px;
+        font-size: 14px;
         
         font-weight: lighter;
 
@@ -58,7 +72,7 @@
     }
     .product_table_heading{
         font-size: 20px!important;
-        text-align: center;
+        margin-top: 60px;
     }
 }
 
