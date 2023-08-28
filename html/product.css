@@ -37,7 +37,24 @@
     }
 
     .product_table_image{
-        text-align: center;
+
+        height: 180px !important;
+  
+  
+
+    }
+
+
+ 
+    .product_links a{
+        text-decoration: none;
+        font-size: 18px;
+        
+        font-weight: lighter;
+
+    }
+    .product_links {
+        font-size: 18px!important;
     }
 }
 
