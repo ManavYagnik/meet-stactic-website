@@ -31,8 +31,14 @@
 
 
 
-@media screen  {
-    
+@media only screen and (max-width: 797px){
+    .product_table_image div , .product_table_image a{
+        font-size: x-large;
+    }
+
+    .product_table_image{
+        text-align: center;
+    }
 }
 
 
