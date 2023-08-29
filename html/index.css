@@ -186,7 +186,10 @@ table {
     border-collapse: collapse;
     width: 100%;
   }
-
+.table-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
   
   .table-container h2{
@@ -195,6 +198,9 @@ table {
 
    
   }
+
+
+
   
   td, th {
     border: 1px solid #dddddd;
