@@ -47,6 +47,10 @@
     .product_table_image div , .product_table_image a{
         font-size: x-large;
     }
+
+    .h{
+        margin-top: 40px;
+    }
     .blank{
         height: 100px;
     }
