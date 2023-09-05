@@ -948,6 +948,18 @@ body{
 
 
 @media only screen and (max-width: 797px){
+
+  .row4{
+    margin-top: 38px;
+  }
+  .img-container{
+    background-color: #362C87;
+    height: 400px;
+   }
+
+   .demo{
+    height: 60px;
+   }
   .cardrow{
     height: 900px;
     background-color: #f1f1f1;
@@ -1011,10 +1023,7 @@ body{
     justify-content: center;
   }
 
-  .prev ,.next{
-    margin-top: -200px;
 
-  }
   .cr1{
     height: 275px;
     width: 100%;
