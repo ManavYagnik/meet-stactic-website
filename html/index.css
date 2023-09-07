@@ -536,6 +536,11 @@ footer{
  position: fixed;
  left: 10px;
  font-size: 38px;
+ background-color: greenyellow;
+ border-radius: 20px 20px 20px 20px;
+ width: 59px;
+ 
+ padding: 12px 12px 12px 12px;
 
 
 
