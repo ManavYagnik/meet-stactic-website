@@ -531,7 +531,31 @@ footer{
     
 }
 
+.whatsapp-icon{
+ top: 80vh;
+ position: fixed;
+ left: 10px;
+ font-size: 38px;
 
+
+
+  animation: rotation 0.02s infinite linear;
+} 
+
+
+
+@keyframes rotation{
+  from {
+    transform: rotate(-12deg);
+  }
+  to{
+    transform: rotate(12deg);
+}
+
+}
+.whatsapp-icon >a >i{
+  color: green;
+}
 
 .footer-text p{
     color: white;
