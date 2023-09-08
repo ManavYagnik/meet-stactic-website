@@ -534,13 +534,14 @@ footer{
 .whatsapp-icon{
  top: 80vh;
  position: fixed;
- left: 10px;
- font-size: 38px;
- background-color: greenyellow;
- border-radius: 20px 20px 20px 20px;
- width: 59px;
  
- padding: 12px 12px 12px 12px;
+ font-size: 40px;
+
+ border-radius: 50px 50px 50px 50px;
+ width: 120px;
+
+ 
+ padding: 6px 6px 6px 6px;
 
 
 
@@ -560,6 +561,7 @@ footer{
 }
 .whatsapp-icon >a >i{
   color: green;
+
 }
 
 .footer-text p{
