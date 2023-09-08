@@ -544,7 +544,7 @@ footer{
 
 
 
-  animation: rotation 0.2s infinite linear;
+ 
 } 
 
 
@@ -798,6 +798,7 @@ footer{
  .partner-heading{
   text-align: center;
   display: flex;
+  
   background-color: #f2f2f2;
 
   
@@ -904,6 +905,7 @@ body{
 
 .real-heading{
   font-size: 36px;
+  padding-top: 14px;
   font-weight: bolder;
 }
 
