@@ -906,8 +906,8 @@ body{
 }
 
 .real-heading{
-  font-size: 36px;
-  padding-top: 14px;
+  font-size: 30px;
+  padding-top: 38px;
   font-weight: bolder;
 }
 
@@ -981,6 +981,9 @@ body{
 
 
 @media only screen and (max-width: 797px){
+  .form-container h1{
+    font-size: 32px;
+  }
 
 
   .img-container{
