@@ -977,10 +977,23 @@ body{
 
 
 
-
+.copyrigth{
+  margin-top: 50px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
 
 
 @media only screen and (max-width: 797px){
+  .copyrigth{
+    margin-top: 500px;
+    color: white;
+    background-color: #23325B;
+    font-size: medium;
+    text-align: center;
+    height: max-content;
+  }
   .form-container h1{
     font-size: 28px;
   }
