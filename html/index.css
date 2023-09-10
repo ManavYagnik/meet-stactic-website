@@ -989,6 +989,8 @@ body{
   .copyrigth{
     margin-top: 499px;
     color: white;
+    padding-bottom: 2px;
+  
     background-color: #23325B;
     font-size: medium;
     text-align: center;
