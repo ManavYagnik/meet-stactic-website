@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color:  rgb(35, 50, 91);
+    color:  #23325b;
     font-family: myFirstFont;
+    scroll-behavior: smooth;
     
     
     
