@@ -15,9 +15,67 @@
 
 
 
+<style>  
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const scrollLink = document.getElementById("scrollLink");
+    const scrollTarget = document.getElementById("touch");
+
+    scrollLink.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default link behavior
+
+      // Calculate the target scroll position (adjust the value as needed)
+      const targetPosition = scrollTarget.offsetTop;
+
+      // Perform smooth scrolling animation
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth"
+      });
+    });
+  });
 
 
 
+
+
+
+
+
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
+</script>
 
 
 <body>
@@ -43,11 +101,11 @@
     <ul id="menuList">
 
       <li><a href="./index.html">About Us</a></li>
-      <li><a href="#Quality"  onclick=menu()>Quality</a></li>
+      <li><a href="./index.html#Quality"  onclick=menu()>Quality</a></li>
       <li><a href="./product.html" onclick=menu()>Products</a></li>
       <li><a href="./productgallery.html" onclick=menu()>Product Gallery</a></li>
-      <li><a href="#c" onclick=menu()> Partner With Us</a></li>
-      <li><a href="#f" onclick=menu() id="touchme">Contact Us</a></li>
+      <li><a href="./index.html#c" onclick=menu()> Partner With Us</a></li>
+      <li><a href="./index.html#f" onclick=menu() id="touchme">Contact Us</a></li>
 
 
 
