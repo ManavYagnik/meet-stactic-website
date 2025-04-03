@@ -4,10 +4,8 @@
   "description": "testing",
   "main": "index.js",
 "scripts": {
-  "start": "node index.js",
-  "deploy": "vercel --prod"
+  "start": "node index.js"
 }
-
 ,
   "author": "",
   "license": "ISC",
